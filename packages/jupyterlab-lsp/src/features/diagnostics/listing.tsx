@@ -290,7 +290,7 @@ export class DiagnosticsListing extends VDomRenderer<DiagnosticsListing.Model> {
     if (diagnostics_db.size === 0) {
       return (
         <div className={DIAGNOSTICS_PLACEHOLDER_CLASS}>
-          {this.trans.__('No issues detected, great job!')}
+          {this.trans.__('No SonarLint issues detected, great job!')}
         </div>
       );
     }
