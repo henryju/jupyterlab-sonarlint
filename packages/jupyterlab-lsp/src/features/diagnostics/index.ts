@@ -41,7 +41,7 @@ const COMMANDS = (trans: TranslationBundle): IFeatureCommand[] => [
     is_enabled: context => {
       return context.app.name != 'JupyterLab Classic';
     },
-    label: trans.__('Show diagnostics panel'),
+    label: trans.__('Show SonarLint panel'),
     rank: 3,
     icon: diagnosticsIcon
   }

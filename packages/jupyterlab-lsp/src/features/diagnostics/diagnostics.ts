@@ -82,7 +82,7 @@ class DiagnosticsPanel {
     this._content.addClass('lsp-diagnostics-panel-content');
     const widget = new MainAreaWidget({ content: this._content });
     widget.id = 'lsp-diagnostics-panel';
-    widget.title.label = this.trans.__('Diagnostics Panel');
+    widget.title.label = this.trans.__('SonarLint Panel');
     widget.title.closable = true;
     widget.title.icon = diagnosticsIcon;
     return widget;
